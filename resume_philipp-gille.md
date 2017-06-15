@@ -6,7 +6,9 @@ Résumé - Philipp Gillé
 
 - Living in Leipzig, Germany
 - Speaking fluent English and German
-- Willing to relocate (abroad) or work remotely, working full- or part-time, as well as contract work
+- Willing to relocate or work remotely
+    - Some cities I'd like to work in: San Francisco / Bay Area, Dubai, Singapore, Perth
+- Working full- or part-time, as well as contract work
 - Preferring to work in either agile startups or innovative subsidiaries / departments of corporations
 
 CV in chronological order
@@ -21,7 +23,7 @@ CV in chronological order
     - Main unit:  EloKaBtl 932, Frankenberg (Eder), Germany
 - Training / apprenticeship: 2007-08 - 2010-01
     - In several subsidiaries of Bertelsmann AG, Gütersloh, Germany
-    - In combination with the private school ["b.i.b." in Paderborn](https://www.bib.de/de/standorte/paderborn.html), Gütersloh
+    - In combination with the private school ["b.i.b." in Paderborn](https://www.bib.de/de/standorte/paderborn.html), Germany
     - *"Computer Science Expert, Subject Area: Software Development"*
 - Traveling abroad: 2010-02 - 2010-07
     - Backpacking all around Australia
@@ -46,7 +48,7 @@ Technologies, programming languages, frameworks, libraries, tools, ...
 
 In **alphabetical order**.
 
-### Expert
+### Professional
 
 - [Agile software development](http://agilemanifesto.org/), [Scrum](http://www.scrumguides.org/docs/scrumguide/v2016/2016-Scrum-Guide-US.pdf#zoom=100)
 - Continuous Integration / Continuous Deployment
@@ -97,6 +99,9 @@ Soft skills
 - Teamwork, enabling collegues to be more productive with sharing my knowledge
 - Adapting habits to be more productive
 - INTJ / INTP personality ([Myers-Briggs](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator#/media/File:MyersBriggsTypes.png))
+- Optimistic towards the future
+- Liberal, cosmopolitan, global, borderless, progressive, futuristic thinking
+- Technology maximalist
 
 Notable side projects
 ---------------------
@@ -106,4 +111,6 @@ Notable side projects
     - ASP.NET Web API, C#, running on AppHarbor PaaS, using mLab MongoDB DBaaS
 - [hello-netcoreapp](https://github.com/philippgille/hello-netcoreapp)
     - Full-blown project template for .NET Core console applications
-- Windows Store app for discovering and reading *TL;DR*s on [tldr.io](http://tldr.io) (website down, project abandoned)
+- [Blockchain Explorer as Amazon Alexa Skill](https://www.amazon.de/Philipp-Gillé-Blockchain-Explorer/dp/B06XVVBDT9)
+    - Open source: [GitHub](https://github.com/philippgille/alexa-blockchain-explorer)
+- Windows Store app for discovering and reading *TL;DR*s on [tldr.io](http://tldr.io) (website down, project stopped)
