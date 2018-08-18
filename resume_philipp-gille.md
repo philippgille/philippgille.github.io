@@ -1,8 +1,8 @@
 Résumé - Philipp Gillé
 ======================
 
-[Website](https://philippgille.github.io/www/)  
-[PDF](https://philippgille.github.io/www/resume_philipp-gille.pdf)
+[Website](https://philippgille.github.io)  
+[PDF](https://philippgille.github.io/resume_philipp-gille.pdf)
 
 - Living in Leipzig, Germany
 - Speaking fluent English and German

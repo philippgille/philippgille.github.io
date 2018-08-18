@@ -1,7 +1,7 @@
-www
-===
+Philipp Gillé
+=============
 
-This repository contains the source files for my [personal website](https://philippgille.github.io/www).
+This repository contains the source files for my [personal website](https://philippgille.github.io).
 
 Build
 -----
