@@ -4,11 +4,13 @@ Résumé - Philipp Gillé
 [Website](https://philippgille.github.io)  
 [PDF](https://philippgille.github.io/resume_philipp-gille.pdf)
 
+- Software engineer
+    - Backend, Java, C#, ... (See [Hard skills](#hard-skills) for more)
 - Living in Leipzig, Germany
-- Speaking fluent English and German
+- Speaking fluent English and German, some French
 - Willing to relocate or work remotely
     - Some cities I'd like to work in: San Francisco / Bay Area, Dubai, Singapore, Perth
-- Working full- or part-time, as well as contract work
+- Willing to work full- or part-time, as well as contract work
 - Preferring to work in either agile startups or innovative subsidiaries / departments of corporations
 
 CV in chronological order
@@ -40,6 +42,8 @@ CV in chronological order
         - Software engineer at [Apinauten GmbH](https://apiomat.com/en/)
             - *Developing Enterprise-Backend-as-a-Service in Java*
             - *Developing client SDKs in Java (Android) and C# (Xamarin)*
+            - *Developing connectors to existing legacy systems*
+            - *Project work (backends for customer-specific webapps)*
 
 Hard skills
 ------------
@@ -52,32 +56,34 @@ In **alphabetical order**.
 
 - [Agile software development](http://agilemanifesto.org/), [Scrum](http://www.scrumguides.org/docs/scrumguide/v2016/2016-Scrum-Guide-US.pdf#zoom=100)
 - Continuous Integration / Continuous Deployment
+    - (Jenkins, [Travis CI](https://travis-ci.org/), [AppVeyor](https://www.appveyor.com/))
 - C# (6), .NET, Mono, .NET Core, LINQ
-- Docker
+- Docker, Docker Swarm clusters
 - Git
+- Go / Golang
 - IDEs: Eclipse, MonoDevelop, Visual Studio, Visual Studio Code
-- Java (8, with Streams)
-- Jenkins
+- Java, Java Streams
 - Linux Command Line
 - RESTful APIs / Backends
 
 ### Intermediary
 
 - Amazon Alexa Skill Development in Java
-- [AppImage](http://appimage.org/) creation (universal Linux packages, similar to Snap and Flatpak)
+- [AppImage](http://appimage.org/) creation (universal Linux packages, similar to [Snap](https://snapcraft.io/) and [Flatpak](https://flatpak.org/))
 - Bash scripts
-- Bitcoin and Blockchains
-- [Chocolatey](https://chocolatey.org/) creation (Windows packages)
+- Bitcoin and Blockchains, [Lightning Network](https://lightning.network/)
+- [Chocolatey](https://chocolatey.org/) package creation (Windows packages)
 - Cloud services:
-    - Amazon AWS (EC2, EBS, Lambda)
-    - Microsoft Azure (VM, App Service, Functions, Cognitive Services)
+    - [Amazon AWS](https://aws.amazon.com/) EC2, EBS, Lambda
+    - [Microsoft Azure](https://azure.microsoft.com/en-us/) VM, App Service, Functions, Cognitive Services
     - [AppHarbor](https://appharbor.com/) (PaaS)
-    - [AppVeyor](https://www.appveyor.com/), [Travis CI](https://travis-ci.org/) (CI / CD)
     - [mLab](https://mlab.com/) (MongoDB DBaaS)
-- Docker Swarm Clusters
+    - VM hosting providers: [Scaleway](https://www.scaleway.com/), [Hetzner Cloud](https://www.hetzner.com/cloud)
 - [Inno Setup](http://www.jrsoftware.org/isinfo.php) (Windows installer creator)
-- MongoDB
-- NoSQL
+- Linux Server management
+- [MongoDB](https://www.mongodb.com/)
+- NoSQL in general
+- [Snap](https://snapcraft.io/) creation (Linux packages)
 - SQL (MS SQL, Oracle SQL, MySQL, SQLite)
 - [Twilio](https://www.twilio.com/) Voice and SMS
 - Windows PowerShell
@@ -85,12 +91,17 @@ In **alphabetical order**.
 ### Beginner
 
 - [Apache Batik](https://xmlgraphics.apache.org/batik/) (Java SVG library)
-- [Apache Thrift](https://thrift.apache.org/) (binary protol similar to Google Protocol Buffers)
-- ASP.NET
-- [BitcoinJ](https://bitcoinj.github.io/)
-- Blockchain smart contracts
-- Erlang
-- Machine Learning / Deep Learning
+- [Apache Thrift](https://thrift.apache.org/) (binary protocol similar to [Google Protocol Buffers](https://developers.google.com/protocol-buffers/))
+- [ASP.NET](https://www.asp.net/) Web API (by far the most popular web framework for C#/.NET)
+- [BitcoinJ](https://bitcoinj.github.io/) (Java library for interacting with the Bitcoin blockchain)
+- Blockchain smart contracts in general
+- [Bolt DB](https://github.com/coreos/bbolt) (embedded database for Go / Golang)
+- [Erlang](http://www.erlang.org/) (programming language for highly scalable distributed high-availability systems)
+- [gRPC](https://grpc.io/) (RPC framework by Google)
+- [Homebrew](https://brew.sh/) package creation (macOS packages)
+- [Kubernetes](https://kubernetes.io/) (container orchestrator)
+- Machine Learning / Deep Learning in general
+- [Redis](https://redis.io/) (in-memory cache server)
 
 Soft skills
 -----------
@@ -106,6 +117,8 @@ Soft skills
 Notable side projects
 ---------------------
 
+- [ln-paywall](https://github.com/philippgille/ln-paywall)
+    - Go middleware for setting up a paywall for an API, payable via the [Lightning Network](https://lightning.network/)
 - [sms.trade](http://sms.trade/)
     - Service for trading Bitcoin on Kraken and Coinbase via SMS
     - ASP.NET Web API, C#, running on AppHarbor PaaS, using mLab MongoDB DBaaS
