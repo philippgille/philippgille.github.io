@@ -4,6 +4,18 @@ Résumé - Philipp Gillé
 [Website](https://philippgille.github.io)  
 [PDF](https://philippgille.github.io/resume_philipp-gille.pdf)
 
+Contents
+--------
+
+- [Overview](#overview)
+- [CV in chronological order](#cv-in-chronological-order)
+- [Hard skills](#hard-skills)
+- [Soft skills](#soft-skills)
+- [Notable side projects](#notable-side-projects)
+
+Overview
+--------
+
 - Software engineer
     - Backend, Java, C#, ... (See [Hard skills](#hard-skills) for more)
 - Living in Leipzig, Germany
