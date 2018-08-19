@@ -1,23 +1,23 @@
-Résumé - Philipp Gillé
+Philipp Gillé - Résumé
 ======================
 
-[Website](https://philippgille.github.io)  
-[PDF](https://philippgille.github.io/resume_philipp-gille.pdf)
+- [Website](https://philippgille.github.io)  
+- [PDF](https://philippgille.github.io/resume_philipp-gille.pdf)
 
 Contents
 --------
 
-- [Overview](#overview)
-- [CV in chronological order](#cv-in-chronological-order)
-- [Hard skills](#hard-skills)
-- [Soft skills](#soft-skills)
-- [Notable side projects](#notable-side-projects)
+1. [Overview](#overview)
+2. [CV in chronological order](#cv-in-chronological-order)
+3. [Hard skills](#hard-skills)
+4. [Soft skills](#soft-skills)
+5. [Notable side projects](#notable-side-projects)
 
 Overview
 --------
 
 - Software engineer
-    - Backend, Java, C#, ... (See [Hard skills](#hard-skills) for more)
+    - Backend, Java, C#, ... (see [Hard skills](#hard-skills) for more)
 - Living in Leipzig, Germany
 - Speaking fluent English and German, some French
 - Willing to relocate or work remotely
@@ -28,29 +28,29 @@ Overview
 CV in chronological order
 -------------------------
 
-- Born 1987-06-15 in Göttingen, Germany
-- School:
-    - Primary school: 1993 - 1999
-    - Secondary school ([Gymnasium](https://en.wikipedia.org/wiki/Gymnasium_(Germany))): 1999 - 2006; advanced courses: *math and physics*
-- Basic military service: 2006-07 - 2007-06
-    - Boot camp: EloKaBtl 912, Nienburg (Weser), Germany
-    - Main unit: EloKaBtl 932, Frankenberg (Eder), Germany
-- Training / apprenticeship: 2007-08 - 2010-01
-    - In several subsidiaries of Bertelsmann AG, Gütersloh, Germany
+1. Born 1987-06-15 in Göttingen, Germany
+2. School:
+    1. Primary school: 1993 - 1999
+    2. Secondary school ([Gymnasium](https://en.wikipedia.org/wiki/Gymnasium_(Germany))): 1999 - 2006; advanced courses: *math and physics*
+3. Basic military service: 2006-07 - 2007-06
+    1. Boot camp: EloKaBtl 912, Nienburg (Weser), Germany
+    2. Main unit: EloKaBtl 932, Frankenberg (Eder), Germany
+4. Training / apprenticeship: 2007-08 - 2010-01
+    - In several subsidiaries of [Bertelsmann AG](https://en.wikipedia.org/wiki/Bertelsmann), Gütersloh, Germany
     - In combination with the private school ["b.i.b." in Paderborn](https://www.bib.de/de/standorte/paderborn.html), Germany
     - *"Computer Science Expert, Subject Area: Software Development"*
-- Traveling abroad: 2010-02 - 2010-07
+5. Traveling abroad: 2010-02 - 2010-07
     - Backpacking around Australia
-- University: 2010-09 - 2013-12
+6. University: 2010-09 - 2013-12
     - [Hamburg University of Applied Sciences (HAW Hamburg)](https://www.haw-hamburg.de/english.html)
     - *Applied Computer Science*
     - Bachelor's thesis: *"A study about data exchange in mobile environments"*
         - Compared SOAP, REST, OData, Binary Protocols (Apache Thrift) and Backend-as-a-Service
-- Work:
-    - During university from 2013-03 to 2013-12:
+7. Work:
+    1. During university from 2013-03 to 2013-12:
         - Student employee at [Sunato Gmbh](http://www.sunato.de/)
         - *Developing mobile apps (Windows Store, Windows Phone)*
-    - 2014-01 - present:
+    2. 2014-01 - present:
         - Software engineer at [Apinauten GmbH](https://apiomat.com/en/)
             - *Developing Enterprise-Backend-as-a-Service in Java*
             - *Developing client SDKs in Java (Android) and C# (Xamarin)*
@@ -119,11 +119,11 @@ Soft skills
 -----------
 
 - High attention to detail
-- Teamwork, enabling collegues to be more productive with sharing my knowledge
+- Teamwork, enabling colleagues to be more productive with sharing my knowledge
 - Adapting habits to be more productive
 - INTJ / INTP personality ([Myers-Briggs](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator#/media/File:MyersBriggsTypes.png))
 - Optimistic towards the future
-- Liberal, cosmopolitan, global, borderless, progressive, futuristic thinking
+- Moderately liberal (regarding economy *and* society), cosmopolitan, globalist, borderless, progressive, futuristic thinking
 - Technology maximalist
 
 Notable side projects
@@ -135,7 +135,7 @@ Notable side projects
     - Service for trading Bitcoin on Kraken and Coinbase via SMS
     - ASP.NET Web API, C#, running on AppHarbor PaaS, using mLab MongoDB DBaaS
 - [hello-netcoreapp](https://github.com/philippgille/hello-netcoreapp)
-    - Full-blown project template for Open Source .NET Core console applications
+    - Full-blown project template / boilerplate for Open Source .NET Core console applications
 - [Blockchain Explorer as Amazon Alexa Skill](https://www.amazon.de/Philipp-Gillé-Blockchain-Explorer/dp/B06XVVBDT9)
     - Open source: [GitHub](https://github.com/philippgille/alexa-blockchain-explorer)
 - Windows Store app for discovering and reading *TL;DR*s on [tldr.io](http://tldr.io) (website down, project stopped)
