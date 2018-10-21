@@ -138,10 +138,10 @@ Notable side projects
 
 - [ln-paywall](https://github.com/philippgille/ln-paywall)
     - Go middleware for setting up a paywall for an API, payable via the [Lightning Network](https://lightning.network/)
-- [lightning.ws](https:/lightning.ws)
+- [lightning.ws](https://lightning.ws)
     - A web service with an API that's payable via the Lightning Network / a demo deployment of [ln-paywall](https://github.com/philippgille/ln-paywall), including a web frontend
 - [boltwall.com](https://boltwall.com/)
-    - Website for the "umbrella" for [ln-paywall](https://github.com/philippgille/ln-paywall), [lightning.ws](https:/lightning.ws) and future related projects
+    - Website for the "umbrella" for [ln-paywall](https://github.com/philippgille/ln-paywall), [lightning.ws](https://lightning.ws) and future related projects
 - [gokv](https://github.com/philippgille/gokv)
     - A Go package that contains an abstraction for key-value stores and multiple implementations
 
