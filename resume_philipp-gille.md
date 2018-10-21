@@ -140,6 +140,7 @@ Notable side projects
     - Go middleware for setting up a paywall for an API, payable via the [Lightning Network](https://lightning.network/)
 - [lightning.ws](https://lightning.ws)
     - A web service with an API that's payable via the Lightning Network / a demo deployment of [ln-paywall](https://github.com/philippgille/ln-paywall), including a web frontend
+    - Open source: [GitHub](https://github.com/philippgille/lightning.ws)
 - [boltwall.com](https://boltwall.com/)
     - Website for the "umbrella" for [ln-paywall](https://github.com/philippgille/ln-paywall), [lightning.ws](https://lightning.ws) and future related projects
 - [gokv](https://github.com/philippgille/gokv)
@@ -156,4 +157,8 @@ Notable side projects
     - Open source: [GitHub](https://github.com/philippgille/alexa-blockchain-explorer)
 - [ApiOmat SDK Go](https://github.com/philippgille/apiomat-sdk-go) and [ApiOmat CLI](https://github.com/philippgille/apiomat-cli)
     - Go SDK and CLI for managing and interacting with [ApiOmat](https://apiomat.com/) servers
+- [serve](https://github.com/philippgille/serve)
+    - A simple static file server for sharing local files with colleagues
+    - Packages for Windows (Scoop and Chocolatey), macOS (Homebrew) and Linux (Snap)
+        - E.g. [https://snapcraft.io/serve](https://snapcraft.io/serve)
 - Windows Store app for discovering and reading *TL;DR*s on [tldr.io](http://tldr.io) (website down / taken over)
