@@ -129,13 +129,26 @@ Soft skills
 Notable side projects
 ---------------------
 
+### Under active development
+
 - [ln-paywall](https://github.com/philippgille/ln-paywall)
     - Go middleware for setting up a paywall for an API, payable via the [Lightning Network](https://lightning.network/)
+- [lightning.ws](https:/lightning.ws)
+    - A web service with an API that's payable via the Lightning Network / a demo deployment of [ln-paywall](https://github.com/philippgille/ln-paywall), including a web frontend
+- [boltwall.com](https://boltwall.com/)
+    - Website for the "umbrella" for [ln-paywall](https://github.com/philippgille/ln-paywall), [lightning.ws](https:/lightning.ws) and future related projects
+- [gokv](https://github.com/philippgille/gokv)
+    - A Go package that contains an abstraction for key-value stores and multiple implementations
+
+### Previous or low priority projects
+
 - [sms.trade](http://sms.trade/)
     - Service for trading Bitcoin on Kraken and Coinbase via SMS
-    - ASP.NET Web API, C#, running on AppHarbor PaaS, using mLab MongoDB DBaaS
+    - ASP.NET Web API, C#, running on AppHarbor PaaS, using [mLab](https://mlab.com/) MongoDB DBaaS
 - [hello-netcoreapp](https://github.com/philippgille/hello-netcoreapp)
     - Full-blown project template / boilerplate for Open Source .NET Core console applications
 - [Blockchain Explorer as Amazon Alexa Skill](https://www.amazon.de/Philipp-Gillé-Blockchain-Explorer/dp/B06XVVBDT9)
     - Open source: [GitHub](https://github.com/philippgille/alexa-blockchain-explorer)
-- Windows Store app for discovering and reading *TL;DR*s on [tldr.io](http://tldr.io) (website down, project stopped)
+- [ApiOmat SDK Go](https://github.com/philippgille/apiomat-sdk-go) and [ApiOmat CLI](https://github.com/philippgille/apiomat-cli)
+    - Go SDK and CLI for managing and interacting with [ApiOmat](https://apiomat.com/) servers
+- Windows Store app for discovering and reading *TL;DR*s on [tldr.io](http://tldr.io) (website down / taken over)
