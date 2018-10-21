@@ -10,8 +10,13 @@ Contents
 1. [Overview](#overview)
 2. [CV in chronological order](#cv-in-chronological-order)
 3. [Hard skills](#hard-skills)
+    1. [Professional](#professional)
+    2. [Intermediary](#intermediary)
+    3. [Beginner](#beginner)
 4. [Soft skills](#soft-skills)
 5. [Notable side projects](#notable-side-projects)
+    1. [Under active development](#under-active-development)
+    2. [Previous or low priority projects](#previous-or-low-priority-projects)
 
 Overview
 --------
