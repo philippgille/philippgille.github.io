@@ -77,10 +77,9 @@ In **alphabetical order**.
 - C# (6), .NET, Mono, .NET Core, LINQ
 - Docker, Docker Swarm clusters
 - Git
-- Go / Golang
 - IDEs: Eclipse, MonoDevelop, Visual Studio, Visual Studio Code
-- Java, Java Streams
-- Linux Command Line
+- Java (8), Java Streams
+- Linux command line
 - RESTful APIs / Backends
 
 ### Intermediary
@@ -96,14 +95,16 @@ In **alphabetical order**.
     - [AppHarbor](https://appharbor.com/) (PaaS)
     - [mLab](https://mlab.com/) (MongoDB DBaaS)
     - VM hosting providers: [Scaleway](https://www.scaleway.com/), [Hetzner Cloud](https://www.hetzner.com/cloud)
+- [Consul](https://github.com/hashicorp/consul) (service registry and key-value store)
+- [Go / Golang](https://golang.org/)
 - [Inno Setup](http://www.jrsoftware.org/isinfo.php) (Windows installer creator)
 - Linux Server management
+- Microservice architecture
 - [MongoDB](https://www.mongodb.com/)
 - NoSQL in general
 - [Snap](https://snapcraft.io/) creation (Linux packages)
-- SQL (MS SQL, Oracle SQL, MySQL, SQLite)
+- SQL (MS SQL, Oracle SQL, MySQL, PostgreSQL, SQLite)
 - [Twilio](https://www.twilio.com/) Voice and SMS
-- Windows PowerShell
 
 ### Beginner
 
@@ -112,24 +113,32 @@ In **alphabetical order**.
 - [ASP.NET](https://www.asp.net/) Web API (by far the most popular web framework for C#/.NET)
 - [BitcoinJ](https://bitcoinj.github.io/) (Java library for interacting with the Bitcoin blockchain)
 - Blockchain smart contracts in general
-- [Bolt DB](https://github.com/coreos/bbolt) (embedded database for Go / Golang)
 - [Erlang](http://www.erlang.org/) (programming language for highly scalable distributed high-availability systems)
 - [gRPC](https://grpc.io/) (RPC framework by Google)
 - [Homebrew](https://brew.sh/) package creation (macOS packages)
 - [Kubernetes](https://kubernetes.io/) (container orchestrator)
 - Machine Learning / Deep Learning in general
-- [Redis](https://redis.io/) (in-memory cache server)
+- Other databases (mainly from work on my side project [gokv](https://github.com/philippgille/gokv)):
+    - Embedded databases for Go / Golang: [BadgerDB](https://github.com/dgraph-io/badger), [bbolt / BoltDB)](https://github.com/coreos/bbolt), [LevelDB / goleveldb](https://github.com/syndtr/goleveldb)
+    - Distributed key-value stores: [Apache ZooKeeper](https://github.com/apache/zookeeper), [etcd](https://github.com/etcd-io/etcd), [Redis](https://redis.io/)
+    - Distributed caches: [Memcached](https://github.com/memcached/memcached), [Hazelcast](https://github.com/hazelcast/hazelcast)
+    - Cloud: [Amazon DynamoDB](https://aws.amazon.com/dynamodb/), [Amazon S3](https://aws.amazon.com/s3/), [Azure Table Storage](https://azure.microsoft.com/en-us/services/storage/tables/), [Google Cloud Datastore](https://cloud.google.com/datastore/), [Alibaba Cloud Table Store](https://www.alibabacloud.com/de/product/table-store)
+    - "NewSQL": [CockroachDB](https://github.com/cockroachdb/cockroach)
+- Windows PowerShell
 
 Soft skills
 -----------
 
 - High attention to detail
+- Putting quality over quantity with the ability to compromise (i.e. not hardcore perfectionist)
 - Teamwork, enabling colleagues to be more productive with sharing my knowledge
 - Adapting habits to be more productive
 - INTJ / INTP personality ([Myers-Briggs](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator#/media/File:MyersBriggsTypes.png))
 - Optimistic towards the future
 - Moderately liberal (regarding economy *and* society), cosmopolitan, globalist, borderless, progressive, futuristic thinking
+    - > Note: Don't read too much into this! People seem to have vastly different understandings of some of these terms.
 - Technology maximalist
+- Seeing potential for optimization and automation
 
 Notable side projects
 ---------------------
@@ -141,20 +150,21 @@ Notable side projects
 - [lightning.ws](https://lightning.ws)
     - A web service with an API that's payable via the Lightning Network / a demo deployment of [ln-paywall](https://github.com/philippgille/ln-paywall), including a web frontend
     - Open source: [GitHub](https://github.com/philippgille/lightning.ws)
-- [boltwall.com](https://boltwall.com/)
-    - Website for the "umbrella" for [ln-paywall](https://github.com/philippgille/ln-paywall), [lightning.ws](https://lightning.ws) and future related projects
 - [gokv](https://github.com/philippgille/gokv)
-    - A Go package that contains an abstraction for key-value stores and multiple implementations
+    - A Go package that contains an abstraction for key-value stores and multiple interface implementations (Redis, Consul, etcd, bbolt, BadgerDB, LevelDB, Memcached, DynamoDB, S3, PostgreSQL, MongoDB, CockroachDB and many more)
+- [sms.trade](https://sms.trade/)
+    - Service for trading Bitcoin on Kraken and Coinbase via SMS
+    - ASP.NET Web API, C#, running on AppHarbor PaaS, using [mLab](https://mlab.com/) MongoDB DBaaS
+    - ⚠️ Currently rewriting from scratch in Go
 
 ### Previous or low priority projects
 
-- [sms.trade](http://sms.trade/)
-    - Service for trading Bitcoin on Kraken and Coinbase via SMS
-    - ASP.NET Web API, C#, running on AppHarbor PaaS, using [mLab](https://mlab.com/) MongoDB DBaaS
 - [hello-netcoreapp](https://github.com/philippgille/hello-netcoreapp)
     - Full-blown project template / boilerplate for Open Source .NET Core console applications
 - [Blockchain Explorer as Amazon Alexa Skill](https://www.amazon.de/Philipp-Gillé-Blockchain-Explorer/dp/B06XVVBDT9)
     - Open source: [GitHub](https://github.com/philippgille/alexa-blockchain-explorer)
+- [boltwall.com](https://boltwall.com/)
+    - Website for the "umbrella" for [ln-paywall](https://github.com/philippgille/ln-paywall), [lightning.ws](https://lightning.ws) and future related projects
 - [ApiOmat SDK Go](https://github.com/philippgille/apiomat-sdk-go) and [ApiOmat CLI](https://github.com/philippgille/apiomat-cli)
     - Go SDK and CLI for managing and interacting with [ApiOmat](https://apiomat.com/) servers
 - [serve](https://github.com/philippgille/serve)

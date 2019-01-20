@@ -501,10 +501,9 @@ blockquote {
 <li>C# (6), .NET, Mono, .NET Core, LINQ</li>
 <li>Docker, Docker Swarm clusters</li>
 <li>Git</li>
-<li>Go / Golang</li>
 <li>IDEs: Eclipse, MonoDevelop, Visual Studio, Visual Studio Code</li>
-<li>Java, Java Streams</li>
-<li>Linux Command Line</li>
+<li>Java (8), Java Streams</li>
+<li>Linux command line</li>
 <li>RESTful APIs / Backends</li>
 </ul>
 <h3 id="intermediary">Intermediary</h3>
@@ -523,14 +522,16 @@ blockquote {
 <li>VM hosting providers: <a href="https://www.scaleway.com/">Scaleway</a>, <a href="https://www.hetzner.com/cloud">Hetzner Cloud</a></li>
 </ul>
 </li>
+<li><a href="https://github.com/hashicorp/consul">Consul</a> (service registry and key-value store)</li>
+<li><a href="https://golang.org/">Go / Golang</a></li>
 <li><a href="http://www.jrsoftware.org/isinfo.php">Inno Setup</a> (Windows installer creator)</li>
 <li>Linux Server management</li>
+<li>Microservice architecture</li>
 <li><a href="https://www.mongodb.com/">MongoDB</a></li>
 <li>NoSQL in general</li>
 <li><a href="https://snapcraft.io/">Snap</a> creation (Linux packages)</li>
-<li>SQL (MS SQL, Oracle SQL, MySQL, SQLite)</li>
+<li>SQL (MS SQL, Oracle SQL, MySQL, PostgreSQL, SQLite)</li>
 <li><a href="https://www.twilio.com/">Twilio</a> Voice and SMS</li>
-<li>Windows PowerShell</li>
 </ul>
 <h3 id="beginner">Beginner</h3>
 <ul>
@@ -539,23 +540,41 @@ blockquote {
 <li><a href="https://www.asp.net/">ASP.NET</a> Web API (by far the most popular web framework for C#/.NET)</li>
 <li><a href="https://bitcoinj.github.io/">BitcoinJ</a> (Java library for interacting with the Bitcoin blockchain)</li>
 <li>Blockchain smart contracts in general</li>
-<li><a href="https://github.com/coreos/bbolt">Bolt DB</a> (embedded database for Go / Golang)</li>
 <li><a href="http://www.erlang.org/">Erlang</a> (programming language for highly scalable distributed high-availability systems)</li>
 <li><a href="https://grpc.io/">gRPC</a> (RPC framework by Google)</li>
 <li><a href="https://brew.sh/">Homebrew</a> package creation (macOS packages)</li>
 <li><a href="https://kubernetes.io/">Kubernetes</a> (container orchestrator)</li>
 <li>Machine Learning / Deep Learning in general</li>
-<li><a href="https://redis.io/">Redis</a> (in-memory cache server)</li>
+<li>Other databases (mainly from work on my side project <a href="https://github.com/philippgille/gokv">gokv</a>):
+<ul>
+<li>Embedded databases for Go / Golang: <a href="https://github.com/dgraph-io/badger">BadgerDB</a>, <a href="https://github.com/coreos/bbolt">bbolt / BoltDB)</a>, <a href="https://github.com/syndtr/goleveldb">LevelDB / goleveldb</a></li>
+<li>Distributed key-value stores: <a href="https://github.com/apache/zookeeper">Apache ZooKeeper</a>, <a href="https://github.com/etcd-io/etcd">etcd</a>, <a href="https://redis.io/">Redis</a></li>
+<li>Distributed caches: <a href="https://github.com/memcached/memcached">Memcached</a>, <a href="https://github.com/hazelcast/hazelcast">Hazelcast</a></li>
+<li>Cloud: <a href="https://aws.amazon.com/dynamodb/">Amazon DynamoDB</a>, <a href="https://aws.amazon.com/s3/">Amazon S3</a>, <a href="https://azure.microsoft.com/en-us/services/storage/tables/">Azure Table Storage</a>, <a href="https://cloud.google.com/datastore/">Google Cloud Datastore</a>, <a href="https://www.alibabacloud.com/de/product/table-store">Alibaba Cloud Table Store</a></li>
+<li>&quot;NewSQL&quot;: <a href="https://github.com/cockroachdb/cockroach">CockroachDB</a></li>
+</ul>
+</li>
+<li>Windows PowerShell</li>
 </ul>
 <h2 id="soft-skills">Soft skills</h2>
 <ul>
 <li>High attention to detail</li>
+<li>Putting quality over quantity with the ability to compromise (i.e. not hardcore perfectionist)</li>
 <li>Teamwork, enabling colleagues to be more productive with sharing my knowledge</li>
 <li>Adapting habits to be more productive</li>
 <li>INTJ / INTP personality (<a href="https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator#/media/File:MyersBriggsTypes.png">Myers-Briggs</a>)</li>
 <li>Optimistic towards the future</li>
-<li>Moderately liberal (regarding economy <em>and</em> society), cosmopolitan, globalist, borderless, progressive, futuristic thinking</li>
+<li>Moderately liberal (regarding economy <em>and</em> society), cosmopolitan, globalist, borderless, progressive, futuristic thinking
+<ul>
+<li>
+<blockquote>
+<p>Note: Don't read too much into this! People seem to have vastly different understandings of some of these terms.</p>
+</blockquote>
+</li>
+</ul>
+</li>
 <li>Technology maximalist</li>
+<li>Seeing potential for optimization and automation</li>
 </ul>
 <h2 id="notable-side-projects">Notable side projects</h2>
 <h3 id="under-active-development">Under active development</h3>
@@ -571,25 +590,21 @@ blockquote {
 <li>Open source: <a href="https://github.com/philippgille/lightning.ws">GitHub</a></li>
 </ul>
 </li>
-<li><a href="https://boltwall.com/">boltwall.com</a>
-<ul>
-<li>Website for the &quot;umbrella&quot; for <a href="https://github.com/philippgille/ln-paywall">ln-paywall</a>, <a href="https://lightning.ws">lightning.ws</a> and future related projects</li>
-</ul>
-</li>
 <li><a href="https://github.com/philippgille/gokv">gokv</a>
 <ul>
-<li>A Go package that contains an abstraction for key-value stores and multiple implementations</li>
+<li>A Go package that contains an abstraction for key-value stores and multiple interface implementations (Redis, Consul, etcd, bbolt, BadgerDB, LevelDB, Memcached, DynamoDB, S3, PostgreSQL, MongoDB, CockroachDB and many more)</li>
+</ul>
+</li>
+<li><a href="https://sms.trade/">sms.trade</a>
+<ul>
+<li>Service for trading Bitcoin on Kraken and Coinbase via SMS</li>
+<li>ASP.NET Web API, C#, running on AppHarbor PaaS, using <a href="https://mlab.com/">mLab</a> MongoDB DBaaS</li>
+<li>⚠️ Currently rewriting from scratch in Go</li>
 </ul>
 </li>
 </ul>
 <h3 id="previous-or-low-priority-projects">Previous or low priority projects</h3>
 <ul>
-<li><a href="http://sms.trade/">sms.trade</a>
-<ul>
-<li>Service for trading Bitcoin on Kraken and Coinbase via SMS</li>
-<li>ASP.NET Web API, C#, running on AppHarbor PaaS, using <a href="https://mlab.com/">mLab</a> MongoDB DBaaS</li>
-</ul>
-</li>
 <li><a href="https://github.com/philippgille/hello-netcoreapp">hello-netcoreapp</a>
 <ul>
 <li>Full-blown project template / boilerplate for Open Source .NET Core console applications</li>
@@ -598,6 +613,11 @@ blockquote {
 <li><a href="https://www.amazon.de/Philipp-Gill%C3%A9-Blockchain-Explorer/dp/B06XVVBDT9">Blockchain Explorer as Amazon Alexa Skill</a>
 <ul>
 <li>Open source: <a href="https://github.com/philippgille/alexa-blockchain-explorer">GitHub</a></li>
+</ul>
+</li>
+<li><a href="https://boltwall.com/">boltwall.com</a>
+<ul>
+<li>Website for the &quot;umbrella&quot; for <a href="https://github.com/philippgille/ln-paywall">ln-paywall</a>, <a href="https://lightning.ws">lightning.ws</a> and future related projects</li>
 </ul>
 </li>
 <li><a href="https://github.com/philippgille/apiomat-sdk-go">ApiOmat SDK Go</a> and <a href="https://github.com/philippgille/apiomat-cli">ApiOmat CLI</a>
