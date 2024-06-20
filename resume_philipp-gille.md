@@ -42,14 +42,22 @@ CV
 In reverse-chronological order:
 
 - 2014-01 - present: Work
+  - 2020-02 - present: Senior software engineer at [Heetch](https://www.heetch.com/)
+    - *Developing payments and finance related systems (cash / card / mobile wallet payments, ledger, invoices, ...) in Go*
+    - *Maintaining and creating company-wide developer tooling (libraries, CLIs, GUIs) in Go*
+    - *Maintaining and migrating legacy systems (Ruby and Elixir)*
+    - *Leading the architecture and development of new features in project-based work, collaborating with other teams, EMs, PMs and stakeholders*
+    - *Establishing standards, guidelines and best practices in the org as part of a cross-team tech lead group*
+    - *Mentoring junior developers and peers*
+    - *Interviewing job applicants*
   - 2014-01 - 2020-01: Software engineer at [Apinauten GmbH](https://apiomat.com/en/)
     - *Developing Enterprise-Backend-as-a-Service in Java*
     - *Developing client SDKs in Java (Android) and C# (Xamarin)*
     - *Developing connectors to existing legacy systems*
-    - *Project work (backends for customer-specific webapps)*
-  - 2013-03 - 2013-12: During university
-    - Student employee at [Sunato Gmbh](http://www.sunato.de/)
-    - *Developing mobile apps (Windows Store, Windows Phone)*
+    - *Project work (backends for customer-specific webapps), sometimes working on-site in customers' offices*
+    - *Evaluating and defining architectures in a cross-team architecture board*
+  - 2013-03 - 2013-12: Student employee at [Sunato Gmbh](http://www.sunato.de/) (during university)
+    - *Developing mobile apps in C# (Windows Store, Windows Phone)*
 - 2010-09 - 2013-12: University
   - [Hamburg University of Applied Sciences (HAW Hamburg)](https://www.haw-hamburg.de/english.html)
   - *Applied Computer Science*
