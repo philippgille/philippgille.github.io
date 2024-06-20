@@ -8,7 +8,7 @@ Contents
 --------
 
 1. [Overview](#overview)
-2. [CV in chronological order](#cv-in-chronological-order)
+2. [CV](#cv)
 3. [Hard skills](#hard-skills)
    1. [Professional](#professional)
    2. [Intermediary](#intermediary)
@@ -30,37 +30,38 @@ Overview
 - Willing to work full- or part-time, as well as contract work
 - Preferring to work in either agile startups or innovative subsidiaries / departments of corporations
 
-CV in chronological order
--------------------------
+CV
+--
 
-1. Born 1987-06-15 in Göttingen, Germany
-2. School:
-   1. Primary school: 1993 - 1999
-   2. Secondary school ([Gymnasium](https://en.wikipedia.org/wiki/Gymnasium_(Germany))): 1999 - 2006; advanced courses: *math and physics*
-3. Basic military service: 2006-07 - 2007-06
-   1. Boot camp: EloKaBtl 912, Nienburg (Weser), Germany
-   2. Main unit: EloKaBtl 932, Frankenberg (Eder), Germany
-4. Training / apprenticeship: 2007-08 - 2010-01
-   - In several subsidiaries of [Bertelsmann AG](https://en.wikipedia.org/wiki/Bertelsmann), Gütersloh, Germany
-   - In combination with the private school ["b.i.b." in Paderborn](https://www.bib.de/de/standorte/paderborn.html), Germany
-   - *"Computer Science Expert, Subject Area: Software Development"*
-5. Traveling abroad: 2010-02 - 2010-07
-   - Backpacking around Australia
-6. University: 2010-09 - 2013-12
-   - [Hamburg University of Applied Sciences (HAW Hamburg)](https://www.haw-hamburg.de/english.html)
-   - *Applied Computer Science*
-   - Bachelor's thesis: *"A study about data exchange in mobile environments"*
-     - Compared SOAP, REST, OData, Binary Protocols (Apache Thrift) and Backend-as-a-Service
-7. Work:
-   1. During university from 2013-03 to 2013-12:
-      - Student employee at [Sunato Gmbh](http://www.sunato.de/)
-      - *Developing mobile apps (Windows Store, Windows Phone)*
-   2. 2014-01 - present:
-      - Software engineer at [Apinauten GmbH](https://apiomat.com/en/)
-        - *Developing Enterprise-Backend-as-a-Service in Java*
-        - *Developing client SDKs in Java (Android) and C# (Xamarin)*
-        - *Developing connectors to existing legacy systems*
-        - *Project work (backends for customer-specific webapps)*
+In reverse-chronological order:
+
+- 2014-01 - present: Work
+  - 2014-01 - 2020-01: Software engineer at [Apinauten GmbH](https://apiomat.com/en/)
+    - *Developing Enterprise-Backend-as-a-Service in Java*
+    - *Developing client SDKs in Java (Android) and C# (Xamarin)*
+    - *Developing connectors to existing legacy systems*
+    - *Project work (backends for customer-specific webapps)*
+  - 2013-03 - 2013-12: During university
+    - Student employee at [Sunato Gmbh](http://www.sunato.de/)
+    - *Developing mobile apps (Windows Store, Windows Phone)*
+- 2010-09 - 2013-12: University
+  - [Hamburg University of Applied Sciences (HAW Hamburg)](https://www.haw-hamburg.de/english.html)
+  - *Applied Computer Science*
+  - Bachelor's thesis: *"A study about data exchange in mobile environments"*
+    - Compared SOAP, REST, OData, Binary Protocols (Apache Thrift) and Backend-as-a-Service
+- 2010-02 - 2010-07: Traveling abroad
+  - Backpacking around Australia
+- 2007-08 - 2010-01: Training / apprenticeship
+  - In several subsidiaries of [Bertelsmann AG](https://en.wikipedia.org/wiki/Bertelsmann), Gütersloh, Germany
+  - In combination with the private school ["b.i.b." in Paderborn](https://www.bib.de/de/standorte/paderborn.html), Germany
+  - *"Computer Science Expert, Subject Area: Software Development"*
+- 2006-07 - 2007-06: Basic military service
+  - Main unit: EloKaBtl 932, Frankenberg (Eder), Germany
+  - Boot camp: EloKaBtl 912, Nienburg (Weser), Germany
+- 1993 - 2006: School
+  - 1999 - 2006: Secondary school ([Gymnasium](https://en.wikipedia.org/wiki/Gymnasium_(Germany))) - advanced courses: *math and physics*
+  - 1993 - 1999: Primary school
+- 1987-06-15: Born in Göttingen, Germany
 
 Hard skills
 ------------
