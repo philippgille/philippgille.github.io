@@ -189,8 +189,6 @@ Notable side projects
 - [lightning.ws](https://lightning.ws)
   - A web service with an API that's payable via the Lightning Network / a demo deployment of [ln-paywall](https://github.com/philippgille/ln-paywall), including a web frontend
   - Open source: [GitHub](https://github.com/philippgille/lightning.ws)
-- [serve](https://github.com/philippgille/serve)
-  - CLI that starts a simple temporary static file server in your current directory and prints your IP address to share with colleagues
 - [sms.trade](https://sms.trade/)
   - Service for trading Bitcoin on Kraken and Coinbase via SMS
   - ASP.NET Web API, C#, running on AppHarbor PaaS, using [mLab](https://mlab.com/) MongoDB DBaaS
