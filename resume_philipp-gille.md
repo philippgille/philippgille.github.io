@@ -82,12 +82,13 @@ Hard skills
 
 Technologies, programming languages, frameworks, libraries, tools, ...
 
-In **alphabetical order**.
+In **alphabetical order**!
 
 ### Professional
 
 - [Agile software development](http://agilemanifesto.org/), [Scrum](http://www.scrumguides.org/docs/scrumguide/v2016/2016-Scrum-Guide-US.pdf#zoom=100)
 - [Apache Avro](https://avro.apache.org/)
+- [Apache Kafka](https://kafka.apache.org/)
 - Bash scripting
 - Continuous Integration / Continuous Deployment
   - GitHub Actions, [Drone](https://www.drone.io/), [Jenkins](https://www.jenkins.io/), [Travis CI](https://travis-ci.org/), [AppVeyor](https://www.appveyor.com/)
@@ -99,7 +100,6 @@ In **alphabetical order**.
 - [gRPC](https://grpc.io/)
 - IDEs: VS Code, Eclipse, MonoDevelop, Visual Studio
 - [Java (8), Java Streams](https://dev.java/)
-- [Apache Kafka](https://kafka.apache.org/)
 - Linux command line
 - Microservice architecture
 - [protobuf](https://protobuf.dev/)
