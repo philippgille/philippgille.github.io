@@ -11,7 +11,7 @@ Contents
 2. [CV](#cv)
 3. [Hard skills](#hard-skills)
    1. [Professional](#professional)
-   2. [Intermediary](#intermediary)
+   2. [Intermediate](#intermediate)
    3. [Beginner](#beginner)
 4. [Soft skills](#soft-skills)
 5. [Notable side projects](#notable-side-projects)
@@ -87,38 +87,54 @@ In **alphabetical order**.
 ### Professional
 
 - [Agile software development](http://agilemanifesto.org/), [Scrum](http://www.scrumguides.org/docs/scrumguide/v2016/2016-Scrum-Guide-US.pdf#zoom=100)
+- [Apache Avro](https://avro.apache.org/)
+- Bash scripting
 - Continuous Integration / Continuous Deployment
-  - (Jenkins, [Travis CI](https://travis-ci.org/), [AppVeyor](https://www.appveyor.com/))
-- C# (6), .NET, Mono, .NET Core, LINQ
-- Docker, Docker Swarm clusters
-- Git
-- IDEs: Eclipse, MonoDevelop, Visual Studio, Visual Studio Code
-- Java (8), Java Streams
+  - GitHub Actions, [Drone](https://www.drone.io/), [Jenkins](https://www.jenkins.io/), [Travis CI](https://travis-ci.org/), [AppVeyor](https://www.appveyor.com/)
+- [C# (6), .NET, Mono, .NET Core, LINQ](https://dotnet.microsoft.com/en-us/)
+- Distributed systems
+- [Docker](https://www.docker.com/)
+- [Git](https://git-scm.com/)
+- [Go (Golang)](https://go.dev/)
+- [gRPC](https://grpc.io/)
+- IDEs: VS Code, Eclipse, MonoDevelop, Visual Studio
+- [Java (8), Java Streams](https://dev.java/)
+- [Apache Kafka](https://kafka.apache.org/)
 - Linux command line
-- RESTful APIs / Backends
+- Microservice architecture
+- [protobuf](https://protobuf.dev/)
+- [RabbitMQ](https://www.rabbitmq.com/)
+- RESTful APIs (HTTP)
+- SQL in general (MS SQL, Oracle SQL, MySQL, PostgreSQL, SQLite)
+- Testing (unit tests, mocking, component tests, E2E tests with [Venom](https://github.com/ovh/venom))
 
-### Intermediary
+### Intermediate
 
 - Amazon Alexa Skill Development in Java
 - [AppImage](http://appimage.org/) creation (universal Linux packages, similar to [Snap](https://snapcraft.io/) and [Flatpak](https://flatpak.org/))
-- Bash scripts
 - Bitcoin and Blockchains, [Lightning Network](https://lightning.network/)
 - [Chocolatey](https://chocolatey.org/) package creation (Windows packages)
 - Cloud services:
-  - [Amazon AWS](https://aws.amazon.com/) EC2, EBS, Lambda
-  - [Microsoft Azure](https://azure.microsoft.com/en-us/) VM, App Service, Functions, Cognitive Services
+  - [Amazon AWS](https://aws.amazon.com/) EC2, ECR, S3, RDS, ElastiCache, EBS, Lambda
+  - [Microsoft Azure](https://azure.microsoft.com/en-us/) VM, App Service, Functions, Cognitive Services, Table Storage
   - [AppHarbor](https://appharbor.com/) (PaaS)
   - [mLab](https://mlab.com/) (MongoDB DBaaS)
   - VM hosting providers: [Scaleway](https://www.scaleway.com/), [Hetzner Cloud](https://www.hetzner.com/cloud)
 - [Consul](https://github.com/hashicorp/consul) (service registry and key-value store)
-- [Go / Golang](https://golang.org/)
+- Docker Swarm clusters
+- HTML
 - [Inno Setup](http://www.jrsoftware.org/isinfo.php) (Windows installer creator)
+- [Kubernetes](https://kubernetes.io/)
 - Linux Server management
-- Microservice architecture
+- Large Language Models (LLMs)
 - [MongoDB](https://www.mongodb.com/)
 - NoSQL in general
+- OAuth, OpenID Connect
+- [PostgreSQL](https://www.postgresql.org/)
+- [Redis](https://redis.io/)
+- Retrieval Augmented Generation (RAG)
+- [Ruby](https://www.ruby-lang.org/en/)
 - [Snap](https://snapcraft.io/) creation (Linux packages)
-- SQL (MS SQL, Oracle SQL, MySQL, PostgreSQL, SQLite)
 - [Twilio](https://www.twilio.com/) Voice and SMS
 
 ### Beginner
@@ -129,16 +145,14 @@ In **alphabetical order**.
 - [BitcoinJ](https://bitcoinj.github.io/) (Java library for interacting with the Bitcoin blockchain)
 - Blockchain smart contracts in general
 - [Erlang](http://www.erlang.org/) (programming language for highly scalable distributed high-availability systems)
-- [gRPC](https://grpc.io/) (RPC framework by Google)
 - [Homebrew](https://brew.sh/) package creation (macOS packages)
-- [Kubernetes](https://kubernetes.io/) (container orchestrator)
 - Machine Learning / Deep Learning in general
 - Other databases (mainly from work on my side project [gokv](https://github.com/philippgille/gokv)):
-  - Embedded databases for Go / Golang: [BadgerDB](https://github.com/dgraph-io/badger), [bbolt / BoltDB)](https://github.com/coreos/bbolt), [LevelDB / goleveldb](https://github.com/syndtr/goleveldb)
+  - Embedded databases for Go: [BadgerDB](https://github.com/dgraph-io/badger), [bbolt / BoltDB)](https://github.com/coreos/bbolt), [LevelDB / goleveldb](https://github.com/syndtr/goleveldb)
   - Distributed key-value stores: [Apache ZooKeeper](https://github.com/apache/zookeeper), [etcd](https://github.com/etcd-io/etcd), [Redis](https://redis.io/)
   - Distributed caches: [Memcached](https://github.com/memcached/memcached), [Hazelcast](https://github.com/hazelcast/hazelcast)
   - Cloud: [Amazon DynamoDB](https://aws.amazon.com/dynamodb/), [Amazon S3](https://aws.amazon.com/s3/), [Azure Table Storage](https://azure.microsoft.com/en-us/services/storage/tables/), [Google Cloud Datastore](https://cloud.google.com/datastore/), [Alibaba Cloud Table Store](https://www.alibabacloud.com/de/product/table-store)
-    - "NewSQL": [CockroachDB](https://github.com/cockroachdb/cockroach)
+  - "NewSQL": [CockroachDB](https://github.com/cockroachdb/cockroach)
 - Windows PowerShell
 
 Soft skills
