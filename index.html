@@ -1,642 +1,302 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Résumé - Philipp Gillé</title>
-<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-
-<style>
-/*---------------------------------------------------------------------------------------------
- *  Copyright (c) Microsoft Corporation. All rights reserved.
- *  Licensed under the MIT License. See License.txt in the project root for license information.
- *--------------------------------------------------------------------------------------------*/
-
-body {
-	font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
-	font-size: 14px;
-	padding: 0 12px;
-	line-height: 22px;
-	word-wrap: break-word;
-}
-
-#code-csp-warning {
-	position: fixed;
-	top: 0;
-	right: 0;
-	color: white;
-	margin: 16px;
-	text-align: center;
-	font-size: 12px;
-	font-family: sans-serif;
-	background-color:#444444;
-	cursor: pointer;
-	padding: 6px;
-	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
-}
-
-#code-csp-warning:hover {
-	text-decoration: none;
-	background-color:#007acc;
-	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
-}
-
-
-body.scrollBeyondLastLine {
-	margin-bottom: calc(100vh - 22px);
-}
-
-body.showEditorSelection .code-line {
-	position: relative;
-}
-
-body.showEditorSelection .code-active-line:before,
-body.showEditorSelection .code-line:hover:before {
-	content: "";
-	display: block;
-	position: absolute;
-	top: 0;
-	left: -12px;
-	height: 100%;
-}
-
-body.showEditorSelection li.code-active-line:before,
-body.showEditorSelection li.code-line:hover:before {
-	left: -30px;
-}
-
-.vscode-light.showEditorSelection .code-active-line:before {
-	border-left: 3px solid rgba(0, 0, 0, 0.15);
-}
-
-.vscode-light.showEditorSelection .code-line:hover:before {
-	border-left: 3px solid rgba(0, 0, 0, 0.40);
-}
-
-.vscode-dark.showEditorSelection .code-active-line:before {
-	border-left: 3px solid rgba(255, 255, 255, 0.4);
-}
-
-.vscode-dark.showEditorSelection .code-line:hover:before {
-	border-left: 3px solid rgba(255, 255, 255, 0.60);
-}
-
-.vscode-high-contrast.showEditorSelection .code-active-line:before {
-	border-left: 3px solid rgba(255, 160, 0, 0.7);
-}
-
-.vscode-high-contrast.showEditorSelection .code-line:hover:before {
-	border-left: 3px solid rgba(255, 160, 0, 1);
-}
-
-img {
-	max-width: 100%;
-	max-height: 100%;
-}
-
-a {
-	color: #4080D0;
-	text-decoration: none;
-}
-
-a:focus,
-input:focus,
-select:focus,
-textarea:focus {
-	outline: 1px solid -webkit-focus-ring-color;
-	outline-offset: -1px;
-}
-
-hr {
-	border: 0;
-	height: 2px;
-	border-bottom: 2px solid;
-}
-
-h1 {
-	padding-bottom: 0.3em;
-	line-height: 1.2;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-}
-
-h1, h2, h3 {
-	font-weight: normal;
-}
-
-h1 code,
-h2 code,
-h3 code,
-h4 code,
-h5 code,
-h6 code {
-	font-size: inherit;
-	line-height: auto;
-}
-
-a:hover {
-	color: #4080D0;
-	text-decoration: underline;
-}
-
-table {
-	border-collapse: collapse;
-}
-
-table > thead > tr > th {
-	text-align: left;
-	border-bottom: 1px solid;
-}
-
-table > thead > tr > th,
-table > thead > tr > td,
-table > tbody > tr > th,
-table > tbody > tr > td {
-	padding: 5px 10px;
-}
-
-table > tbody > tr + tr > td {
-	border-top: 1px solid;
-}
-
-blockquote {
-	margin: 0 7px 0 5px;
-	padding: 0 16px 0 10px;
-	border-left: 5px solid;
-}
-
-code {
-	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
-	font-size: 14px;
-	line-height: 19px;
-}
-
-body.wordWrap pre {
-	white-space: pre-wrap;
-}
-
-.mac code {
-	font-size: 12px;
-	line-height: 18px;
-}
-
-pre:not(.hljs),
-pre.hljs code > div {
-	padding: 16px;
-	border-radius: 3px;
-	overflow: auto;
-}
-
-/** Theming */
-
-.vscode-light,
-.vscode-light pre code {
-	color: rgb(30, 30, 30);
-}
-
-.vscode-dark,
-.vscode-dark pre code {
-	color: #DDD;
-}
-
-.vscode-high-contrast,
-.vscode-high-contrast pre code {
-	color: white;
-}
-
-.vscode-light code {
-	color: #A31515;
-}
-
-.vscode-dark code {
-	color: #D7BA7D;
-}
-
-.vscode-light pre:not(.hljs),
-.vscode-light code > div {
-	background-color: rgba(220, 220, 220, 0.4);
-}
-
-.vscode-dark pre:not(.hljs),
-.vscode-dark code > div {
-	background-color: rgba(10, 10, 10, 0.4);
-}
-
-.vscode-high-contrast pre:not(.hljs),
-.vscode-high-contrast code > div {
-	background-color: rgb(0, 0, 0);
-}
-
-.vscode-high-contrast h1 {
-	border-color: rgb(0, 0, 0);
-}
-
-.vscode-light table > thead > tr > th {
-	border-color: rgba(0, 0, 0, 0.69);
-}
-
-.vscode-dark table > thead > tr > th {
-	border-color: rgba(255, 255, 255, 0.69);
-}
-
-.vscode-light h1,
-.vscode-light hr,
-.vscode-light table > tbody > tr + tr > td {
-	border-color: rgba(0, 0, 0, 0.18);
-}
-
-.vscode-dark h1,
-.vscode-dark hr,
-.vscode-dark table > tbody > tr + tr > td {
-	border-color: rgba(255, 255, 255, 0.18);
-}
-
-.vscode-light blockquote,
-.vscode-dark blockquote {
-	background: rgba(127, 127, 127, 0.1);
-	border-color: rgba(0, 122, 204, 0.5);
-}
-
-.vscode-high-contrast blockquote {
-	background: transparent;
-	border-color: #fff;
-}
-</style>
-
-<style>
-/* Tomorrow Theme */
-/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
-/* Original theme - https://github.com/chriskempson/tomorrow-theme */
-
-/* Tomorrow Comment */
-.hljs-comment,
-.hljs-quote {
-	color: #8e908c;
-}
-
-/* Tomorrow Red */
-.hljs-variable,
-.hljs-template-variable,
-.hljs-tag,
-.hljs-name,
-.hljs-selector-id,
-.hljs-selector-class,
-.hljs-regexp,
-.hljs-deletion {
-	color: #c82829;
-}
-
-/* Tomorrow Orange */
-.hljs-number,
-.hljs-built_in,
-.hljs-builtin-name,
-.hljs-literal,
-.hljs-type,
-.hljs-params,
-.hljs-meta,
-.hljs-link {
-	color: #f5871f;
-}
-
-/* Tomorrow Yellow */
-.hljs-attribute {
-	color: #eab700;
-}
-
-/* Tomorrow Green */
-.hljs-string,
-.hljs-symbol,
-.hljs-bullet,
-.hljs-addition {
-	color: #718c00;
-}
-
-/* Tomorrow Blue */
-.hljs-title,
-.hljs-section {
-	color: #4271ae;
-}
-
-/* Tomorrow Purple */
-.hljs-keyword,
-.hljs-selector-tag {
-	color: #8959a8;
-}
-
-.hljs {
-	display: block;
-	overflow-x: auto;
-	color: #4d4d4c;
-	padding: 0.5em;
-}
-
-.hljs-emphasis {
-	font-style: italic;
-}
-
-.hljs-strong {
-	font-weight: bold;
-}
-</style>
-
-<style>
-/*
- * Markdown PDF CSS
- */
-
- body {
-	font-family:  "Meiryo", "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
-}
-
-pre {
-	background-color: #f8f8f8;
-	border: 1px solid #cccccc;
-	border-radius: 3px;
-	overflow-x: auto;
-	white-space: pre-wrap;
-	overflow-wrap: break-word;
-}
-
-pre:not(.hljs) {
-	padding: 23px;
-	line-height: 19px;
-}
-
-blockquote {
-	background: rgba(127, 127, 127, 0.1);
-	border-color: rgba(0, 122, 204, 0.5);
-}
-
-.emoji {
-	height: 1.4em;
-}
-
-/* for inline code */
-:not(pre):not(.hljs) > code {
-	color: #C9AE75; /* Change the old color so it seems less like an error */
-	font-size: inherit;
-}
-
-/* Page Break : use <div class="page"/> to insert page break
--------------------------------------------------------- */
-.page {
-	page-break-after: always;
-}
-
-</style>
-
+	<title>Résumé - Philipp Gillé</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<link rel="stylesheet" href="styles.css">
 </head>
-<body>
-<h1 id="philipp-gill%C3%A9---r%C3%A9sum%C3%A9">Philipp Gillé - Résumé</h1>
-<ul>
-<li><a href="https://philippgille.github.io">Website</a></li>
-<li><a href="https://philippgille.github.io/resume_philipp-gille.pdf">PDF</a></li>
-</ul>
-<h2 id="contents">Contents</h2>
-<ol>
-<li><a href="#overview">Overview</a></li>
-<li><a href="#cv-in-chronological-order">CV in chronological order</a></li>
-<li><a href="#hard-skills">Hard skills</a>
-<ol>
-<li><a href="#professional">Professional</a></li>
-<li><a href="#intermediary">Intermediary</a></li>
-<li><a href="#beginner">Beginner</a></li>
-</ol>
-</li>
-<li><a href="#soft-skills">Soft skills</a></li>
-<li><a href="#notable-side-projects">Notable side projects</a>
-<ol>
-<li><a href="#under-active-development">Under active development</a></li>
-<li><a href="#previous-or-low-priority-projects">Previous or low priority projects</a></li>
-</ol>
-</li>
-</ol>
-<h2 id="overview">Overview</h2>
-<ul>
-<li>Software engineer
-<ul>
-<li>Backend, Java, C#, ... (see <a href="#hard-skills">Hard skills</a> for more)</li>
-</ul>
-</li>
-<li>Living in Leipzig, Germany</li>
-<li>Speaking fluent English and German, some French</li>
-<li>Willing to relocate or work remotely
-<ul>
-<li>Some cities I'd like to work in: San Francisco / Bay Area, Dubai, Singapore, Perth</li>
-</ul>
-</li>
-<li>Willing to work full- or part-time, as well as contract work</li>
-<li>Preferring to work in either agile startups or innovative subsidiaries / departments of corporations</li>
-</ul>
-<h2 id="cv-in-chronological-order">CV in chronological order</h2>
-<ol>
-<li>Born 1987-06-15 in Göttingen, Germany</li>
-<li>School:
-<ol>
-<li>Primary school: 1993 - 1999</li>
-<li>Secondary school (<a href="https://en.wikipedia.org/wiki/Gymnasium_(Germany)">Gymnasium</a>): 1999 - 2006; advanced courses: <em>math and physics</em></li>
-</ol>
-</li>
-<li>Basic military service: 2006-07 - 2007-06
-<ol>
-<li>Boot camp: EloKaBtl 912, Nienburg (Weser), Germany</li>
-<li>Main unit: EloKaBtl 932, Frankenberg (Eder), Germany</li>
-</ol>
-</li>
-<li>Training / apprenticeship: 2007-08 - 2010-01
-<ul>
-<li>In several subsidiaries of <a href="https://en.wikipedia.org/wiki/Bertelsmann">Bertelsmann AG</a>, Gütersloh, Germany</li>
-<li>In combination with the private school <a href="https://www.bib.de/de/standorte/paderborn.html">&quot;b.i.b.&quot; in Paderborn</a>, Germany</li>
-<li><em>&quot;Computer Science Expert, Subject Area: Software Development&quot;</em></li>
-</ul>
-</li>
-<li>Traveling abroad: 2010-02 - 2010-07
-<ul>
-<li>Backpacking around Australia</li>
-</ul>
-</li>
-<li>University: 2010-09 - 2013-12
-<ul>
-<li><a href="https://www.haw-hamburg.de/english.html">Hamburg University of Applied Sciences (HAW Hamburg)</a></li>
-<li><em>Applied Computer Science</em></li>
-<li>Bachelor's thesis: <em>&quot;A study about data exchange in mobile environments&quot;</em>
-<ul>
-<li>Compared SOAP, REST, OData, Binary Protocols (Apache Thrift) and Backend-as-a-Service</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Work:
-<ol>
-<li>During university from 2013-03 to 2013-12:
-<ul>
-<li>Student employee at <a href="http://www.sunato.de/">Sunato Gmbh</a></li>
-<li><em>Developing mobile apps (Windows Store, Windows Phone)</em></li>
-</ul>
-</li>
-<li>2014-01 - present:
-<ul>
-<li>Software engineer at <a href="https://apiomat.com/en/">Apinauten GmbH</a>
-<ul>
-<li><em>Developing Enterprise-Backend-as-a-Service in Java</em></li>
-<li><em>Developing client SDKs in Java (Android) and C# (Xamarin)</em></li>
-<li><em>Developing connectors to existing legacy systems</em></li>
-<li><em>Project work (backends for customer-specific webapps)</em></li>
-</ul>
-</li>
-</ul>
-</li>
-</ol>
-</li>
-</ol>
-<h2 id="hard-skills">Hard skills</h2>
-<p>Technologies, programming languages, frameworks, libraries, tools, ...</p>
-<p>In <strong>alphabetical order</strong>.</p>
-<h3 id="professional">Professional</h3>
-<ul>
-<li><a href="http://agilemanifesto.org/">Agile software development</a>, <a href="http://www.scrumguides.org/docs/scrumguide/v2016/2016-Scrum-Guide-US.pdf#zoom=100">Scrum</a></li>
-<li>Continuous Integration / Continuous Deployment
-<ul>
-<li>(Jenkins, <a href="https://travis-ci.org/">Travis CI</a>, <a href="https://www.appveyor.com/">AppVeyor</a>)</li>
-</ul>
-</li>
-<li>C# (6), .NET, Mono, .NET Core, LINQ</li>
-<li>Docker, Docker Swarm clusters</li>
-<li>Git</li>
-<li>IDEs: Eclipse, MonoDevelop, Visual Studio, Visual Studio Code</li>
-<li>Java (8), Java Streams</li>
-<li>Linux command line</li>
-<li>RESTful APIs / Backends</li>
-</ul>
-<h3 id="intermediary">Intermediary</h3>
-<ul>
-<li>Amazon Alexa Skill Development in Java</li>
-<li><a href="http://appimage.org/">AppImage</a> creation (universal Linux packages, similar to <a href="https://snapcraft.io/">Snap</a> and <a href="https://flatpak.org/">Flatpak</a>)</li>
-<li>Bash scripts</li>
-<li>Bitcoin and Blockchains, <a href="https://lightning.network/">Lightning Network</a></li>
-<li><a href="https://chocolatey.org/">Chocolatey</a> package creation (Windows packages)</li>
-<li>Cloud services:
-<ul>
-<li><a href="https://aws.amazon.com/">Amazon AWS</a> EC2, EBS, Lambda</li>
-<li><a href="https://azure.microsoft.com/en-us/">Microsoft Azure</a> VM, App Service, Functions, Cognitive Services</li>
-<li><a href="https://appharbor.com/">AppHarbor</a> (PaaS)</li>
-<li><a href="https://mlab.com/">mLab</a> (MongoDB DBaaS)</li>
-<li>VM hosting providers: <a href="https://www.scaleway.com/">Scaleway</a>, <a href="https://www.hetzner.com/cloud">Hetzner Cloud</a></li>
-</ul>
-</li>
-<li><a href="https://github.com/hashicorp/consul">Consul</a> (service registry and key-value store)</li>
-<li><a href="https://golang.org/">Go / Golang</a></li>
-<li><a href="http://www.jrsoftware.org/isinfo.php">Inno Setup</a> (Windows installer creator)</li>
-<li>Linux Server management</li>
-<li>Microservice architecture</li>
-<li><a href="https://www.mongodb.com/">MongoDB</a></li>
-<li>NoSQL in general</li>
-<li><a href="https://snapcraft.io/">Snap</a> creation (Linux packages)</li>
-<li>SQL (MS SQL, Oracle SQL, MySQL, PostgreSQL, SQLite)</li>
-<li><a href="https://www.twilio.com/">Twilio</a> Voice and SMS</li>
-</ul>
-<h3 id="beginner">Beginner</h3>
-<ul>
-<li><a href="https://xmlgraphics.apache.org/batik/">Apache Batik</a> (Java SVG library)</li>
-<li><a href="https://thrift.apache.org/">Apache Thrift</a> (binary protocol similar to <a href="https://developers.google.com/protocol-buffers/">Google Protocol Buffers</a>)</li>
-<li><a href="https://www.asp.net/">ASP.NET</a> Web API (by far the most popular web framework for C#/.NET)</li>
-<li><a href="https://bitcoinj.github.io/">BitcoinJ</a> (Java library for interacting with the Bitcoin blockchain)</li>
-<li>Blockchain smart contracts in general</li>
-<li><a href="http://www.erlang.org/">Erlang</a> (programming language for highly scalable distributed high-availability systems)</li>
-<li><a href="https://grpc.io/">gRPC</a> (RPC framework by Google)</li>
-<li><a href="https://brew.sh/">Homebrew</a> package creation (macOS packages)</li>
-<li><a href="https://kubernetes.io/">Kubernetes</a> (container orchestrator)</li>
-<li>Machine Learning / Deep Learning in general</li>
-<li>Other databases (mainly from work on my side project <a href="https://github.com/philippgille/gokv">gokv</a>):
-<ul>
-<li>Embedded databases for Go / Golang: <a href="https://github.com/dgraph-io/badger">BadgerDB</a>, <a href="https://github.com/coreos/bbolt">bbolt / BoltDB)</a>, <a href="https://github.com/syndtr/goleveldb">LevelDB / goleveldb</a></li>
-<li>Distributed key-value stores: <a href="https://github.com/apache/zookeeper">Apache ZooKeeper</a>, <a href="https://github.com/etcd-io/etcd">etcd</a>, <a href="https://redis.io/">Redis</a></li>
-<li>Distributed caches: <a href="https://github.com/memcached/memcached">Memcached</a>, <a href="https://github.com/hazelcast/hazelcast">Hazelcast</a></li>
-<li>Cloud: <a href="https://aws.amazon.com/dynamodb/">Amazon DynamoDB</a>, <a href="https://aws.amazon.com/s3/">Amazon S3</a>, <a href="https://azure.microsoft.com/en-us/services/storage/tables/">Azure Table Storage</a>, <a href="https://cloud.google.com/datastore/">Google Cloud Datastore</a>, <a href="https://www.alibabacloud.com/de/product/table-store">Alibaba Cloud Table Store</a></li>
-<li>&quot;NewSQL&quot;: <a href="https://github.com/cockroachdb/cockroach">CockroachDB</a></li>
-</ul>
-</li>
-<li>Windows PowerShell</li>
-</ul>
-<h2 id="soft-skills">Soft skills</h2>
-<ul>
-<li>High attention to detail</li>
-<li>Putting quality over quantity with the ability to compromise (i.e. not hardcore perfectionist)</li>
-<li>Teamwork, enabling colleagues to be more productive with sharing my knowledge</li>
-<li>Adapting habits to be more productive</li>
-<li>INTJ / INTP personality (<a href="https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator#/media/File:MyersBriggsTypes.png">Myers-Briggs</a>)</li>
-<li>Optimistic towards the future</li>
-<li>Moderately liberal (regarding economy <em>and</em> society), cosmopolitan, globalist, borderless, progressive, futuristic thinking
-<ul>
-<li>
-<blockquote>
-<p>Note: Don't read too much into this! People seem to have vastly different understandings of some of these terms.</p>
-</blockquote>
-</li>
-</ul>
-</li>
-<li>Technology maximalist</li>
-<li>Seeing potential for optimization and automation</li>
-</ul>
-<h2 id="notable-side-projects">Notable side projects</h2>
-<h3 id="under-active-development">Under active development</h3>
-<ul>
-<li><a href="https://github.com/philippgille/ln-paywall">ln-paywall</a>
-<ul>
-<li>Go middleware for setting up a paywall for an API, payable via the <a href="https://lightning.network/">Lightning Network</a></li>
-</ul>
-</li>
-<li><a href="https://lightning.ws">lightning.ws</a>
-<ul>
-<li>A web service with an API that's payable via the Lightning Network / a demo deployment of <a href="https://github.com/philippgille/ln-paywall">ln-paywall</a>, including a web frontend</li>
-<li>Open source: <a href="https://github.com/philippgille/lightning.ws">GitHub</a></li>
-</ul>
-</li>
-<li><a href="https://github.com/philippgille/gokv">gokv</a>
-<ul>
-<li>A Go package that contains an abstraction for key-value stores and multiple interface implementations (Redis, Consul, etcd, bbolt, BadgerDB, LevelDB, Memcached, DynamoDB, S3, PostgreSQL, MongoDB, CockroachDB and many more)</li>
-</ul>
-</li>
-<li><a href="https://sms.trade/">sms.trade</a>
-<ul>
-<li>Service for trading Bitcoin on Kraken and Coinbase via SMS</li>
-<li>ASP.NET Web API, C#, running on AppHarbor PaaS, using <a href="https://mlab.com/">mLab</a> MongoDB DBaaS</li>
-<li>⚠️ Currently rewriting from scratch in Go</li>
-</ul>
-</li>
-</ul>
-<h3 id="previous-or-low-priority-projects">Previous or low priority projects</h3>
-<ul>
-<li><a href="https://github.com/philippgille/hello-netcoreapp">hello-netcoreapp</a>
-<ul>
-<li>Full-blown project template / boilerplate for Open Source .NET Core console applications</li>
-</ul>
-</li>
-<li><a href="https://www.amazon.de/Philipp-Gill%C3%A9-Blockchain-Explorer/dp/B06XVVBDT9">Blockchain Explorer as Amazon Alexa Skill</a>
-<ul>
-<li>Open source: <a href="https://github.com/philippgille/alexa-blockchain-explorer">GitHub</a></li>
-</ul>
-</li>
-<li><a href="https://boltwall.com/">boltwall.com</a>
-<ul>
-<li>Website for the &quot;umbrella&quot; for <a href="https://github.com/philippgille/ln-paywall">ln-paywall</a>, <a href="https://lightning.ws">lightning.ws</a> and future related projects</li>
-</ul>
-</li>
-<li><a href="https://github.com/philippgille/apiomat-sdk-go">ApiOmat SDK Go</a> and <a href="https://github.com/philippgille/apiomat-cli">ApiOmat CLI</a>
-<ul>
-<li>Go SDK and CLI for managing and interacting with <a href="https://apiomat.com/">ApiOmat</a> servers</li>
-</ul>
-</li>
-<li><a href="https://github.com/philippgille/serve">serve</a>
-<ul>
-<li>A simple static file server for sharing local files with colleagues</li>
-<li>Packages for Windows (Scoop and Chocolatey), macOS (Homebrew) and Linux (Snap)
-<ul>
-<li>E.g. <a href="https://snapcraft.io/serve">https://snapcraft.io/serve</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Windows Store app for discovering and reading <em>TL;DR</em>s on <a href="http://tldr.io">tldr.io</a> (website down / taken over)</li>
-</ul>
 
+<body>
+	<h1 id="philipp-gill%C3%A9---r%C3%A9sum%C3%A9">Philipp Gillé - Résumé</h1>
+	<ul>
+		<li><a href="https://philippgille.github.io">Website</a></li>
+		<li><a href="https://philippgille.github.io/resume_philipp-gille.pdf">PDF</a></li>
+	</ul>
+	<h2 id="contents">Contents</h2>
+	<ol>
+		<li><a href="#overview">Overview</a></li>
+		<li><a href="#cv-in-chronological-order">CV in chronological order</a></li>
+		<li><a href="#hard-skills">Hard skills</a>
+			<ol>
+				<li><a href="#professional">Professional</a></li>
+				<li><a href="#intermediary">Intermediary</a></li>
+				<li><a href="#beginner">Beginner</a></li>
+			</ol>
+		</li>
+		<li><a href="#soft-skills">Soft skills</a></li>
+		<li><a href="#notable-side-projects">Notable side projects</a>
+			<ol>
+				<li><a href="#under-active-development">Under active development</a></li>
+				<li><a href="#previous-or-low-priority-projects">Previous or low priority projects</a></li>
+			</ol>
+		</li>
+	</ol>
+	<h2 id="overview">Overview</h2>
+	<ul>
+		<li>Software engineer
+			<ul>
+				<li>Backend, Java, C#, ... (see <a href="#hard-skills">Hard skills</a> for more)</li>
+			</ul>
+		</li>
+		<li>Living in Leipzig, Germany</li>
+		<li>Speaking fluent English and German, some French</li>
+		<li>Willing to relocate or work remotely
+			<ul>
+				<li>Some cities I'd like to work in: San Francisco / Bay Area, Dubai, Singapore, Perth</li>
+			</ul>
+		</li>
+		<li>Willing to work full- or part-time, as well as contract work</li>
+		<li>Preferring to work in either agile startups or innovative subsidiaries / departments of corporations</li>
+	</ul>
+	<h2 id="cv-in-chronological-order">CV in chronological order</h2>
+	<ol>
+		<li>Born 1987-06-15 in Göttingen, Germany</li>
+		<li>School:
+			<ol>
+				<li>Primary school: 1993 - 1999</li>
+				<li>Secondary school (<a href="https://en.wikipedia.org/wiki/Gymnasium_(Germany)">Gymnasium</a>): 1999 -
+					2006; advanced courses: <em>math and physics</em></li>
+			</ol>
+		</li>
+		<li>Basic military service: 2006-07 - 2007-06
+			<ol>
+				<li>Boot camp: EloKaBtl 912, Nienburg (Weser), Germany</li>
+				<li>Main unit: EloKaBtl 932, Frankenberg (Eder), Germany</li>
+			</ol>
+		</li>
+		<li>Training / apprenticeship: 2007-08 - 2010-01
+			<ul>
+				<li>In several subsidiaries of <a href="https://en.wikipedia.org/wiki/Bertelsmann">Bertelsmann AG</a>,
+					Gütersloh, Germany</li>
+				<li>In combination with the private school <a
+						href="https://www.bib.de/de/standorte/paderborn.html">&quot;b.i.b.&quot; in Paderborn</a>,
+					Germany</li>
+				<li><em>&quot;Computer Science Expert, Subject Area: Software Development&quot;</em></li>
+			</ul>
+		</li>
+		<li>Traveling abroad: 2010-02 - 2010-07
+			<ul>
+				<li>Backpacking around Australia</li>
+			</ul>
+		</li>
+		<li>University: 2010-09 - 2013-12
+			<ul>
+				<li><a href="https://www.haw-hamburg.de/english.html">Hamburg University of Applied Sciences (HAW
+						Hamburg)</a></li>
+				<li><em>Applied Computer Science</em></li>
+				<li>Bachelor's thesis: <em>&quot;A study about data exchange in mobile environments&quot;</em>
+					<ul>
+						<li>Compared SOAP, REST, OData, Binary Protocols (Apache Thrift) and Backend-as-a-Service</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>Work:
+			<ol>
+				<li>During university from 2013-03 to 2013-12:
+					<ul>
+						<li>Student employee at <a href="http://www.sunato.de/">Sunato Gmbh</a></li>
+						<li><em>Developing mobile apps (Windows Store, Windows Phone)</em></li>
+					</ul>
+				</li>
+				<li>2014-01 - present:
+					<ul>
+						<li>Software engineer at <a href="https://apiomat.com/en/">Apinauten GmbH</a>
+							<ul>
+								<li><em>Developing Enterprise-Backend-as-a-Service in Java</em></li>
+								<li><em>Developing client SDKs in Java (Android) and C# (Xamarin)</em></li>
+								<li><em>Developing connectors to existing legacy systems</em></li>
+								<li><em>Project work (backends for customer-specific webapps)</em></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ol>
+		</li>
+	</ol>
+	<h2 id="hard-skills">Hard skills</h2>
+	<p>Technologies, programming languages, frameworks, libraries, tools, ...</p>
+	<p>In <strong>alphabetical order</strong>.</p>
+	<h3 id="professional">Professional</h3>
+	<ul>
+		<li><a href="http://agilemanifesto.org/">Agile software development</a>, <a
+				href="http://www.scrumguides.org/docs/scrumguide/v2016/2016-Scrum-Guide-US.pdf#zoom=100">Scrum</a></li>
+		<li>Continuous Integration / Continuous Deployment
+			<ul>
+				<li>(Jenkins, <a href="https://travis-ci.org/">Travis CI</a>, <a
+						href="https://www.appveyor.com/">AppVeyor</a>)</li>
+			</ul>
+		</li>
+		<li>C# (6), .NET, Mono, .NET Core, LINQ</li>
+		<li>Docker, Docker Swarm clusters</li>
+		<li>Git</li>
+		<li>IDEs: Eclipse, MonoDevelop, Visual Studio, Visual Studio Code</li>
+		<li>Java (8), Java Streams</li>
+		<li>Linux command line</li>
+		<li>RESTful APIs / Backends</li>
+	</ul>
+	<h3 id="intermediary">Intermediary</h3>
+	<ul>
+		<li>Amazon Alexa Skill Development in Java</li>
+		<li><a href="http://appimage.org/">AppImage</a> creation (universal Linux packages, similar to <a
+				href="https://snapcraft.io/">Snap</a> and <a href="https://flatpak.org/">Flatpak</a>)</li>
+		<li>Bash scripts</li>
+		<li>Bitcoin and Blockchains, <a href="https://lightning.network/">Lightning Network</a></li>
+		<li><a href="https://chocolatey.org/">Chocolatey</a> package creation (Windows packages)</li>
+		<li>Cloud services:
+			<ul>
+				<li><a href="https://aws.amazon.com/">Amazon AWS</a> EC2, EBS, Lambda</li>
+				<li><a href="https://azure.microsoft.com/en-us/">Microsoft Azure</a> VM, App Service, Functions,
+					Cognitive Services</li>
+				<li><a href="https://appharbor.com/">AppHarbor</a> (PaaS)</li>
+				<li><a href="https://mlab.com/">mLab</a> (MongoDB DBaaS)</li>
+				<li>VM hosting providers: <a href="https://www.scaleway.com/">Scaleway</a>, <a
+						href="https://www.hetzner.com/cloud">Hetzner Cloud</a></li>
+			</ul>
+		</li>
+		<li><a href="https://github.com/hashicorp/consul">Consul</a> (service registry and key-value store)</li>
+		<li><a href="https://golang.org/">Go / Golang</a></li>
+		<li><a href="http://www.jrsoftware.org/isinfo.php">Inno Setup</a> (Windows installer creator)</li>
+		<li>Linux Server management</li>
+		<li>Microservice architecture</li>
+		<li><a href="https://www.mongodb.com/">MongoDB</a></li>
+		<li>NoSQL in general</li>
+		<li><a href="https://snapcraft.io/">Snap</a> creation (Linux packages)</li>
+		<li>SQL (MS SQL, Oracle SQL, MySQL, PostgreSQL, SQLite)</li>
+		<li><a href="https://www.twilio.com/">Twilio</a> Voice and SMS</li>
+	</ul>
+	<h3 id="beginner">Beginner</h3>
+	<ul>
+		<li><a href="https://xmlgraphics.apache.org/batik/">Apache Batik</a> (Java SVG library)</li>
+		<li><a href="https://thrift.apache.org/">Apache Thrift</a> (binary protocol similar to <a
+				href="https://developers.google.com/protocol-buffers/">Google Protocol Buffers</a>)</li>
+		<li><a href="https://www.asp.net/">ASP.NET</a> Web API (by far the most popular web framework for C#/.NET)</li>
+		<li><a href="https://bitcoinj.github.io/">BitcoinJ</a> (Java library for interacting with the Bitcoin
+			blockchain)</li>
+		<li>Blockchain smart contracts in general</li>
+		<li><a href="http://www.erlang.org/">Erlang</a> (programming language for highly scalable distributed
+			high-availability systems)</li>
+		<li><a href="https://grpc.io/">gRPC</a> (RPC framework by Google)</li>
+		<li><a href="https://brew.sh/">Homebrew</a> package creation (macOS packages)</li>
+		<li><a href="https://kubernetes.io/">Kubernetes</a> (container orchestrator)</li>
+		<li>Machine Learning / Deep Learning in general</li>
+		<li>Other databases (mainly from work on my side project <a
+				href="https://github.com/philippgille/gokv">gokv</a>):
+			<ul>
+				<li>Embedded databases for Go / Golang: <a href="https://github.com/dgraph-io/badger">BadgerDB</a>, <a
+						href="https://github.com/coreos/bbolt">bbolt / BoltDB)</a>, <a
+						href="https://github.com/syndtr/goleveldb">LevelDB / goleveldb</a></li>
+				<li>Distributed key-value stores: <a href="https://github.com/apache/zookeeper">Apache ZooKeeper</a>, <a
+						href="https://github.com/etcd-io/etcd">etcd</a>, <a href="https://redis.io/">Redis</a></li>
+				<li>Distributed caches: <a href="https://github.com/memcached/memcached">Memcached</a>, <a
+						href="https://github.com/hazelcast/hazelcast">Hazelcast</a></li>
+				<li>Cloud: <a href="https://aws.amazon.com/dynamodb/">Amazon DynamoDB</a>, <a
+						href="https://aws.amazon.com/s3/">Amazon S3</a>, <a
+						href="https://azure.microsoft.com/en-us/services/storage/tables/">Azure Table Storage</a>, <a
+						href="https://cloud.google.com/datastore/">Google Cloud Datastore</a>, <a
+						href="https://www.alibabacloud.com/de/product/table-store">Alibaba Cloud Table Store</a></li>
+				<li>&quot;NewSQL&quot;: <a href="https://github.com/cockroachdb/cockroach">CockroachDB</a></li>
+			</ul>
+		</li>
+		<li>Windows PowerShell</li>
+	</ul>
+	<h2 id="soft-skills">Soft skills</h2>
+	<ul>
+		<li>High attention to detail</li>
+		<li>Putting quality over quantity with the ability to compromise (i.e. not hardcore perfectionist)</li>
+		<li>Teamwork, enabling colleagues to be more productive with sharing my knowledge</li>
+		<li>Adapting habits to be more productive</li>
+		<li>INTJ / INTP personality (<a
+				href="https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator#/media/File:MyersBriggsTypes.png">Myers-Briggs</a>)
+		</li>
+		<li>Optimistic towards the future</li>
+		<li>Moderately liberal (regarding economy <em>and</em> society), cosmopolitan, globalist, borderless,
+			progressive, futuristic thinking
+			<ul>
+				<li>
+					<blockquote>
+						<p>Note: Don't read too much into this! People seem to have vastly different understandings of
+							some of these terms.</p>
+					</blockquote>
+				</li>
+			</ul>
+		</li>
+		<li>Technology maximalist</li>
+		<li>Seeing potential for optimization and automation</li>
+	</ul>
+	<h2 id="notable-side-projects">Notable side projects</h2>
+	<h3 id="under-active-development">Under active development</h3>
+	<ul>
+		<li><a href="https://github.com/philippgille/ln-paywall">ln-paywall</a>
+			<ul>
+				<li>Go middleware for setting up a paywall for an API, payable via the <a
+						href="https://lightning.network/">Lightning Network</a></li>
+			</ul>
+		</li>
+		<li><a href="https://lightning.ws">lightning.ws</a>
+			<ul>
+				<li>A web service with an API that's payable via the Lightning Network / a demo deployment of <a
+						href="https://github.com/philippgille/ln-paywall">ln-paywall</a>, including a web frontend</li>
+				<li>Open source: <a href="https://github.com/philippgille/lightning.ws">GitHub</a></li>
+			</ul>
+		</li>
+		<li><a href="https://github.com/philippgille/gokv">gokv</a>
+			<ul>
+				<li>A Go package that contains an abstraction for key-value stores and multiple interface
+					implementations (Redis, Consul, etcd, bbolt, BadgerDB, LevelDB, Memcached, DynamoDB, S3, PostgreSQL,
+					MongoDB, CockroachDB and many more)</li>
+			</ul>
+		</li>
+		<li><a href="https://sms.trade/">sms.trade</a>
+			<ul>
+				<li>Service for trading Bitcoin on Kraken and Coinbase via SMS</li>
+				<li>ASP.NET Web API, C#, running on AppHarbor PaaS, using <a href="https://mlab.com/">mLab</a> MongoDB
+					DBaaS</li>
+				<li>⚠️ Currently rewriting from scratch in Go</li>
+			</ul>
+		</li>
+	</ul>
+	<h3 id="previous-or-low-priority-projects">Previous or low priority projects</h3>
+	<ul>
+		<li><a href="https://github.com/philippgille/hello-netcoreapp">hello-netcoreapp</a>
+			<ul>
+				<li>Full-blown project template / boilerplate for Open Source .NET Core console applications</li>
+			</ul>
+		</li>
+		<li><a href="https://www.amazon.de/Philipp-Gill%C3%A9-Blockchain-Explorer/dp/B06XVVBDT9">Blockchain Explorer as
+				Amazon Alexa Skill</a>
+			<ul>
+				<li>Open source: <a href="https://github.com/philippgille/alexa-blockchain-explorer">GitHub</a></li>
+			</ul>
+		</li>
+		<li><a href="https://boltwall.com/">boltwall.com</a>
+			<ul>
+				<li>Website for the &quot;umbrella&quot; for <a
+						href="https://github.com/philippgille/ln-paywall">ln-paywall</a>, <a
+						href="https://lightning.ws">lightning.ws</a> and future related projects</li>
+			</ul>
+		</li>
+		<li><a href="https://github.com/philippgille/apiomat-sdk-go">ApiOmat SDK Go</a> and <a
+				href="https://github.com/philippgille/apiomat-cli">ApiOmat CLI</a>
+			<ul>
+				<li>Go SDK and CLI for managing and interacting with <a href="https://apiomat.com/">ApiOmat</a> servers
+				</li>
+			</ul>
+		</li>
+		<li><a href="https://github.com/philippgille/serve">serve</a>
+			<ul>
+				<li>A simple static file server for sharing local files with colleagues</li>
+				<li>Packages for Windows (Scoop and Chocolatey), macOS (Homebrew) and Linux (Snap)
+					<ul>
+						<li>E.g. <a href="https://snapcraft.io/serve">https://snapcraft.io/serve</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>Windows Store app for discovering and reading <em>TL;DR</em>s on <a href="http://tldr.io">tldr.io</a>
+			(website down / taken over)</li>
+	</ul>
 </body>
+
 </html>
