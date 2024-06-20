@@ -158,16 +158,19 @@ In **alphabetical order**.
 Soft skills
 -----------
 
+In no specific order:
+
 - High attention to detail
-- Putting quality over quantity with the ability to compromise (i.e. not hardcore perfectionist)
-- Teamwork, enabling colleagues to be more productive with sharing my knowledge
-- Adapting habits to be more productive
+- Precise, professional written communication
+- Conveying technical information to non-technical people
+- Identifying and resolving complex technical issues
+- Putting quality over quantity with the ability to compromise and ship
+- Teamwork, finding a middle ground among opposing opinions among peers
+- Mentoring / enabling juniors and peers to be more productive by sharing my knowledge, tips and tricks
 - INTJ / INTP personality ([Myers-Briggs](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator#/media/File:MyersBriggsTypes.png))
 - Optimistic towards the future
-- Moderately liberal (regarding economy *and* society), cosmopolitan, globalist, borderless, progressive, futuristic thinking
-  - > Note: Don't read too much into this! People seem to have vastly different understandings of some of these terms.
-- Technology maximalist
-- Seeing potential for optimization and automation
+- Tech enthusiast
+- Seeing potential for optimization and automation, continuously reporting or implementing them
 
 Notable side projects
 ---------------------
