@@ -15,8 +15,8 @@ Contents
    3. [Beginner](#beginner)
 4. [Soft skills](#soft-skills)
 5. [Notable side projects](#notable-side-projects)
-   1. [Under active development](#under-active-development)
-   2. [Previous or low priority projects](#previous-or-low-priority-projects)
+   1. [Active](#active)
+   2. [Low priority or archived](#low-priority-or-archived)
 
 Overview
 --------
@@ -175,22 +175,25 @@ In no specific order:
 Notable side projects
 ---------------------
 
-### Under active development
+### Active
+
+- [chromem-go](https://github.com/philippgille/gokv)
+  - Embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence.
+- [gokv](https://github.com/philippgille/gokv)
+  - A Go package that contains an abstraction for key-value stores and multiple interface implementations (Redis, Consul, etcd, bbolt, BadgerDB, LevelDB, Memcached, DynamoDB, S3, PostgreSQL, MongoDB, CockroachDB and many more)
+
+### Low priority or archived
 
 - [ln-paywall](https://github.com/philippgille/ln-paywall)
   - Go middleware for setting up a paywall for an API, payable via the [Lightning Network](https://lightning.network/)
 - [lightning.ws](https://lightning.ws)
   - A web service with an API that's payable via the Lightning Network / a demo deployment of [ln-paywall](https://github.com/philippgille/ln-paywall), including a web frontend
   - Open source: [GitHub](https://github.com/philippgille/lightning.ws)
-- [gokv](https://github.com/philippgille/gokv)
-  - A Go package that contains an abstraction for key-value stores and multiple interface implementations (Redis, Consul, etcd, bbolt, BadgerDB, LevelDB, Memcached, DynamoDB, S3, PostgreSQL, MongoDB, CockroachDB and many more)
+- [serve](https://github.com/philippgille/serve)
+  - CLI that starts a simple temporary static file server in your current directory and prints your IP address to share with colleagues
 - [sms.trade](https://sms.trade/)
   - Service for trading Bitcoin on Kraken and Coinbase via SMS
   - ASP.NET Web API, C#, running on AppHarbor PaaS, using [mLab](https://mlab.com/) MongoDB DBaaS
-  - ⚠️ Currently rewriting from scratch in Go
-
-### Previous or low priority projects
-
 - [hello-netcoreapp](https://github.com/philippgille/hello-netcoreapp)
   - Full-blown project template / boilerplate for Open Source .NET Core console applications
 - [Blockchain Explorer as Amazon Alexa Skill](https://www.amazon.de/Philipp-Gillé-Blockchain-Explorer/dp/B06XVVBDT9)
