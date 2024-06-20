@@ -21,8 +21,14 @@ Contents
 Overview
 --------
 
-- Software engineer
-  - Backend, Java, C#, ... (see [Hard skills](#hard-skills) for more)
+- Senior software engineer
+  - Backend developer, tech and project lead, architect for new features
+  - Current stack: Go (Golang) microservices, PostgreSQL, Redis, gRPC / protobuf, HTTP, Kafka, RabbitMQ, Docker. On AWS with Kubernetes. Some Ruby and Elixir.
+  - Past: Java, C#, mostly backend but also mobile apps. MongoDB, Hazelcast, HTTP, Docker. On-premise hosting.
+  - See [Hard skills](#hard-skills) for details
+- Open source maintainer
+  - Vector database library (AI / RAG), key-value store library for 20+ storage systems, Bitcoin / Lightning Network library for Go APIs
+  - See [Notable side projects](#notable-side-projects) for more
 - Living in Leipzig, Germany
 - Speaking fluent English and German, some French
 - Willing to relocate or work remotely
