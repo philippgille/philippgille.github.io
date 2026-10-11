@@ -1,11 +1,9 @@
-Philipp Gillé - Résumé
-======================
+# Philipp Gillé - Résumé
 
 - [Website](https://philippgille.github.io)  
 - [PDF](https://philippgille.github.io/resume_philipp-gille.pdf)
 
-Contents
---------
+## Contents
 
 1. [Overview](#overview)
 2. [CV](#cv)
@@ -18,8 +16,7 @@ Contents
    1. [Active](#active)
    2. [Low priority or archived](#low-priority-or-archived)
 
-Overview
---------
+## Overview
 
 - Senior software engineer
   - Backend developer, tech and project lead, architect for new features
@@ -31,13 +28,8 @@ Overview
   - See [Notable side projects](#notable-side-projects) for more
 - Living in Leipzig, Germany
 - Speaking fluent English and German, some French
-- Willing to relocate or work remotely
-  - Some cities I'd like to work in: San Francisco / Bay Area, Dubai, Singapore, Perth
-- Willing to work full- or part-time, as well as contract work
-- Preferring to work in either agile startups or innovative subsidiaries / departments of corporations
 
-CV
---
+## CV
 
 In reverse-chronological order:
 
@@ -75,10 +67,9 @@ In reverse-chronological order:
 - 1993 - 2006: School
   - 1999 - 2006: Secondary school ([Gymnasium](https://en.wikipedia.org/wiki/Gymnasium_(Germany))) - advanced courses: *math and physics*
   - 1993 - 1999: Primary school
-- 1987-06-15: Born in Göttingen, Germany
+- 1987: Born in Göttingen, Germany
 
-Hard skills
-------------
+## Hard skills
 
 Technologies, programming languages, frameworks, libraries, tools, ...
 
@@ -87,6 +78,7 @@ In **alphabetical order**!
 ### Professional
 
 - [Agile software development](http://agilemanifesto.org/), [Scrum](http://www.scrumguides.org/docs/scrumguide/v2016/2016-Scrum-Guide-US.pdf#zoom=100)
+- AI-assisted software development (Codex, OpenCode, GitHub Copilot, Ollama, OpenRouter)
 - [Apache Avro](https://avro.apache.org/)
 - [Apache Kafka](https://kafka.apache.org/)
 - Bash scripting
@@ -136,12 +128,13 @@ In **alphabetical order**!
 - [Ruby](https://www.ruby-lang.org/en/)
 - [Snap](https://snapcraft.io/) creation (Linux packages)
 - [Twilio](https://www.twilio.com/) Voice and SMS
+- Vector stores (like Chroma, or the pgvector module for PostgreSQL)
 
 ### Beginner
 
 - [Apache Batik](https://xmlgraphics.apache.org/batik/) (Java SVG library)
 - [Apache Thrift](https://thrift.apache.org/) (binary protocol similar to [Google Protocol Buffers](https://developers.google.com/protocol-buffers/))
-- [ASP.NET](https://www.asp.net/) Web API (by far the most popular web framework for C#/.NET)
+- [ASP.NET](https://www.asp.net/) Web API (the most popular web framework for C#/.NET)
 - [BitcoinJ](https://bitcoinj.github.io/) (Java library for interacting with the Bitcoin blockchain)
 - Blockchain smart contracts in general
 - [Erlang](http://www.erlang.org/) (programming language for highly scalable distributed high-availability systems)
@@ -155,8 +148,7 @@ In **alphabetical order**!
   - "NewSQL": [CockroachDB](https://github.com/cockroachdb/cockroach)
 - Windows PowerShell
 
-Soft skills
------------
+## Soft skills
 
 In no specific order:
 
@@ -172,11 +164,11 @@ In no specific order:
 - Tech enthusiast
 - Seeing potential for optimization and automation, continuously reporting or implementing them
 
-Notable side projects
----------------------
+## Notable side projects
 
 ### Active
 
+- [TravelWeather](https://travelweather.global/) / [ReiseWetter](https://reisewetter.global/)
 - [chromem-go](https://github.com/philippgille/gokv)
   - Embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence.
 - [gokv](https://github.com/philippgille/gokv)
