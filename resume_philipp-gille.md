@@ -43,11 +43,13 @@ In reverse-chronological order:
     - *Mentoring junior developers and peers*
     - *Interviewing job applicants*
   - 2014-01 - 2020-01: Software engineer at [Apinauten GmbH](https://apiomat.com/en/)
-    - *Developing Enterprise-Backend-as-a-Service in Java*
-    - *Developing client SDKs in Java (Android) and C# (Xamarin)*
-    - *Developing connectors to existing legacy systems*
-    - *Project work (backends for customer-specific webapps), sometimes working on-site in customers' offices*
-    - *Evaluating and defining architectures in a cross-team architecture board*
+    - *Developing and maintaining an Enterprise-Backend-as-a-Service in Java*
+    - *Developing and maintaining client SDKs in Java (Android) and C# (Xamarin), with local persistence using SQLite*
+    - *Developing and maintaining connectors to existing systems and databases (e.g. Microsoft SQL Server)*
+    - *Developing and maintaining authentication and authorization mechanisms using OAuth and SAML*
+    - *Project work for customers and partners, sometimes on-site (Berlitz, Swisscom, LBBW (Landesbank Baden-Württemberg), and Creditreform)*
+    - *Evaluating and defining software architectures as part of a cross-team architecture board*
+    - *Providing technical support for sales presentations and product demonstrations to prospective customers (pre-sales)*
   - 2013-03 - 2013-12: Student employee at [Sunato Gmbh](http://www.sunato.de/) (during university)
     - *Developing mobile apps in C# (Windows Store, Windows Phone)*
 - 2010-09 - 2013-12: University
